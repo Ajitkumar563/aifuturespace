@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,56 +17,65 @@ color:white;
 }
 
 header{
-padding:20px;
 display:flex;
 justify-content:space-between;
 align-items:center;
+padding:20px 40px;
+background:#020617;
 }
 
 nav a{
 color:white;
 margin-left:20px;
 text-decoration:none;
+font-weight:bold;
 }
 
 .hero{
-padding:120px 20px;
 text-align:center;
+padding:120px 20px;
 }
 
 .hero h1{
-font-size:48px;
+font-size:50px;
 }
 
 .hero p{
+font-size:20px;
 max-width:700px;
 margin:auto;
-font-size:20px;
 margin-top:20px;
 }
 
 .btn{
 display:inline-block;
 margin-top:30px;
-padding:14px 30px;
+padding:14px 28px;
 background:#22c55e;
-border:none;
 color:white;
-font-size:18px;
-cursor:pointer;
-border-radius:6px;
 text-decoration:none;
+border-radius:6px;
+font-size:18px;
+}
+
+.social{
+margin-top:30px;
+}
+
+.social a{
+margin:10px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+padding:10px 20px;
+border-radius:5px;
+background:#1e293b;
 }
 
 .services{
 padding:80px 20px;
 background:#020617;
 text-align:center;
-}
-
-.services h2{
-font-size:36px;
-margin-bottom:40px;
 }
 
 .cards{
@@ -82,14 +92,34 @@ padding:30px;
 border-radius:10px;
 }
 
-.card h3{
-margin-bottom:10px;
+.contact{
+text-align:center;
+padding:80px 20px;
+}
+
+input, textarea{
+width:80%;
+max-width:500px;
+padding:12px;
+margin:10px;
+border-radius:5px;
+border:none;
+}
+
+button{
+padding:12px 25px;
+background:#22c55e;
+border:none;
+color:white;
+font-size:16px;
+border-radius:5px;
+cursor:pointer;
 }
 
 footer{
-text-align:center;
-padding:40px 20px;
 background:#020617;
+padding:40px;
+text-align:center;
 }
 
 .whatsapp{
@@ -104,39 +134,55 @@ text-decoration:none;
 font-weight:bold;
 }
 
-.email{
-margin-top:10px;
-}
-
 </style>
 </head>
 
 <body>
 
 <header>
+
 <h2>AI Future Space</h2>
+
 <nav>
 <a href="#">Home</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
+<a href="#services">Services</a>
+<a href="#contact">Contact</a>
 </nav>
+
 </header>
+
 
 <section class="hero">
 
 <h1>AI Solutions for Modern Businesses</h1>
 
 <p>
-We build powerful AI automation systems, computer vision solutions,
-chatbots, and machine learning applications that help businesses
-save time and grow faster.
+We build intelligent AI automation systems, chatbots, and computer vision solutions to help businesses grow faster.
 </p>
 
-<a class="btn" href="https://wa.me/918920581628">Book Free Consultation</a>
+<a class="btn" target="_blank"
+href="https://wa.me/918920581628?text=Hello%20Ajit,%20I%20want%20AI%20services">
+Book Free Consultation
+</a>
+
+
+<div class="social">
+
+<a target="_blank" href="https://www.linkedin.com/">
+LinkedIn
+</a>
+
+<a target="_blank" href="https://www.youtube.com/">
+YouTube
+</a>
+
+</div>
 
 </section>
 
-<section class="services">
+
+
+<section id="services" class="services">
 
 <h2>Our AI Services</h2>
 
@@ -144,44 +190,82 @@ save time and grow faster.
 
 <div class="card">
 <h3>AI Automation</h3>
-<p>Automate repetitive business tasks using AI workflows.</p>
+<p>Automate business workflows using AI.</p>
 </div>
 
 <div class="card">
 <h3>Computer Vision</h3>
-<p>Smart camera systems for detection, monitoring and analytics.</p>
+<p>Smart AI camera systems for monitoring and detection.</p>
 </div>
 
 <div class="card">
 <h3>AI Chatbots</h3>
-<p>Customer support bots and automated lead generation.</p>
+<p>Automated customer support and lead generation bots.</p>
 </div>
 
 <div class="card">
 <h3>Custom AI Development</h3>
-<p>Tailor-made AI systems built for your business needs.</p>
+<p>Tailor-made AI systems for your business needs.</p>
 </div>
 
 </div>
 
 </section>
 
+
+
+<section id="contact" class="contact">
+
+<h2>Start Your AI Project</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<br>
+
+<input type="email" placeholder="Your Email" required>
+
+<br>
+
+<textarea placeholder="Tell us about your project"></textarea>
+
+<br>
+
+<button type="submit">Send Inquiry</button>
+
+</form>
+
+</section>
+
+
+
 <footer>
 
 <h3>AI Future Space</h3>
 
-<p>Artificial Intelligence Solutions for Businesses</p>
-
 <p>📞 Phone: 8920581628</p>
 
-<p class="email">📧 Email: Ajitkm8@gmail.com</p>
-<p class="email">📧 Email: Ajitsanchay@gmail.com</p>
+<p>📧 Ajitkm8@gmail.com</p>
+
+<p>📧 Ajitsanchay@gmail.com</p>
+
+<p>
+
+<a target="_blank" href="https://www.linkedin.com/in/ajit-kumar-9261a2114/">LinkedIn</a> |
+<a target="_blank" href="https://www.youtube.com/@Ajitkm8">YouTube</a>
+
+</p>
 
 </footer>
 
-<a class="whatsapp" href="https://wa.me/918920581628">
+
+
+<a class="whatsapp"
+href="https://wa.me/918920581628?text=Hello%20Ajit,%20I%20am%20interested%20in%20AI%20services">
 Chat on WhatsApp
 </a>
+
 
 </body>
 </html>
