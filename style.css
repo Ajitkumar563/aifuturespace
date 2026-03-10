@@ -27,9 +27,12 @@ font-weight:bold;
 /* HERO SECTION */
 
 .hero{
-text-align:center;
-padding:120px 20px;
 position:relative;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
 overflow:hidden;
 }
 
